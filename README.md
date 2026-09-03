@@ -17,7 +17,6 @@
 - [Interactive Features](#-interactive-features)
 - [Tools & Technologies](#️-tools--technologies)
 - [Repository Structure](#-repository-structure)
-- [How to Use](#-how-to-use)
 - [Key Learnings](#-key-learnings)
 - [Future Improvements](#-future-improvements)
 - [About This Project](#-about-this-project)
@@ -123,7 +122,6 @@ Broader, market-level analysis.
 
 ```
 CARVISTA-Used-Car-Analytics/
-├── Car Dekho Dataset.pbix       # Power BI dashboard file
 ├── cardekho_dataset.csv         # Dataset used for analysis
 ├── assets/
 │   └── screenshots/             # Dashboard preview images
@@ -131,20 +129,6 @@ CARVISTA-Used-Car-Analytics/
 │   └── CARVISTA_Documentation.pdf   # Full project write-up
 └── README.md
 ```
-
----
-
-## ▶️ How to Use
-
-1. Clone or download this repository.
-   ```bash
-   git clone https://github.com/<your-username>/CARVISTA-Used-Car-Analytics.git
-   ```
-2. Open **`Car Dekho Dataset.pbix`** in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
-3. Use the filter panel on the left (Brand, Model, Fuel Type, Transmission, Seller Type, Vehicle Age) to explore the data.
-4. Navigate between **Overview → Pricing → Specifications → Market Insights** using the top navigation bar.
-
----
 
 ## 💡 Key Learnings
 
