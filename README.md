@@ -1,149 +1,196 @@
-# 🚗 CARVISTA — Used Car Market Analytics
+<div align="center">
 
-## 📌 Project Overview
+# 🚗 CARVISTA — Used Car Market Analytics Dashboard
 
-CARVISTA is an interactive **Used Car Market Analytics Dashboard** created using **Power BI**.
+**An interactive Power BI dashboard turning raw used-car listings into decision-ready market insights.**
 
-I built this project as part of my Data Analytics learning journey to understand how raw automotive data can be transformed into meaningful and interactive business insights.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-6C3CE0?style=for-the-badge&logo=microsoft&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power%20Query-E6007E?style=for-the-badge&logo=microsoft&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-The dashboard focuses on analyzing **used car pricing, vehicle specifications, mileage, fuel types, transmission types, seller patterns, vehicle age, brands, and models**.
+</div>
 
 ---
 
-## 🎯 Project Objective
+## 📌 Table of Contents
 
-The main objective of this project was to build an interactive analytical dashboard that helps users:
+- [Overview](#-overview)
+- [Objective](#-objective)
+- [Dashboard Preview](#-dashboard-preview)
+- [Dashboard Pages](#-dashboard-pages)
+- [Interactive Features](#-interactive-features)
+- [Tools & Technologies](#️-tools--technologies)
+- [Repository Structure](#-repository-structure)
+- [How to Use](#-how-to-use)
+- [Key Learnings](#-key-learnings)
+- [Future Improvements](#-future-improvements)
+- [About This Project](#-about-this-project)
 
-- Understand overall used car market performance
-- Compare pricing across different brands and models
+---
+
+## 📊 Overview
+
+**CARVISTA** is an interactive **Used Car Market Analytics Dashboard** built in **Power BI**, created as part of a hands-on **data science learning journey**.
+
+The goal was to go beyond "just making charts" and understand how raw automotive data can be cleaned, modeled, and turned into a dashboard that actually answers business questions — the kind a buyer, seller, or dealer could use to make a decision.
+
+The dashboard analyzes **pricing, vehicle specifications, mileage, fuel & transmission types, seller behaviour, vehicle age, brands, and models** across a real used-car dataset.
+
+---
+
+## 🎯 Objective
+
+Build an interactive analytical dashboard that helps users:
+
+- Understand overall used-car market performance at a glance
+- Compare pricing across brands and models
 - Analyze vehicle specifications and performance
-- Study fuel and transmission preferences
+- Study fuel-type and transmission preferences
 - Understand how vehicle age affects selling price
-- Identify important market patterns and trends
+- Identify meaningful market patterns and trends
 
 ---
 
-## 📊 Dashboard Pages
+## 🖼️ Dashboard Preview
+
+> Add screenshots to `/assets/screenshots/` and update the paths below so they render on GitHub.
+
+| Overview | Pricing Analysis |
+|---|---|
+| ![Overview](assets/screenshots/overview.png) | ![Pricing](assets/screenshots/pricing.png) |
+
+| Specifications | Market Insights |
+|---|---|
+| ![Specifications](assets/screenshots/specifications.png) | ![Market Insights](assets/screenshots/market_insights.png) |
+
+---
+
+## 📄 Dashboard Pages
 
 ### 1️⃣ Overview
-Provides a high-level view of the used car market including:
-
-- Total Cars
-- Average Selling Price
-- Average KM Driven
-- Average Vehicle Age
-- Average Mileage
-- Brand Distribution
-- Fuel Type Distribution
-- Transmission Distribution
-- Vehicle Age vs Selling Price
+A high-level snapshot of the entire used-car market.
+- Total Cars · Avg. Selling Price · Avg. KM Driven · Avg. Vehicle Age · Avg. Mileage
+- Brand, Fuel Type & Transmission Distribution
+- Vehicle Age vs. Selling Price trend
 
 ### 2️⃣ Pricing Analysis
-Focuses on pricing behaviour across the used car market.
-
-Analysis includes:
-
+Focused on pricing behaviour across the market.
 - Selling Price by Brand
 - Price distribution across vehicle age
 - Fuel-based pricing analysis
-- Price vs KM Driven
-- Pricing patterns across different vehicle categories
+- Price vs. KM Driven
+- Pricing patterns across vehicle categories
 
 ### 3️⃣ Specifications
-Analyzes the technical characteristics of vehicles.
-
-Includes:
-
-- Mileage Distribution
-- Engine Capacity Distribution
+Technical characteristics of listed vehicles.
+- Mileage & Engine Capacity Distribution
 - Power Distribution
-- Average Selling Price by Seats
+- Average Selling Price by Seat Configuration
 - Mileage by Fuel Type
-- Engine, Power and Mileage KPIs
+- Engine, Power & Mileage KPIs
 
 ### 4️⃣ Market Insights
-Provides a broader market-level analysis including:
-
+Broader, market-level analysis.
 - Market Share by Brand
 - Seller Type Analysis
 - Fuel Type Pricing
 - Vehicle Age Patterns
-- Dynamic market insights based on selected filters
+- Dynamic insights that update with filter selection
 
 ---
 
 ## ⚡ Interactive Features
 
-The dashboard includes:
-
-- Dynamic Brand & Model selection
-- Dynamic vehicle image based on selected brand
-- Brand and model-specific information
-- Synchronized slicers across report pages
-- Dynamic KPI cards
-- Dynamic DAX-based insight cards
-- Interactive charts and cross-filtering
-- Reset Filter functionality
-- Multi-page navigation
+- 🔎 Dynamic Brand & Model selection with matching vehicle image
+- 🔗 Synchronized slicers across all report pages
+- 📌 Dynamic KPI cards
+- 🧠 DAX-driven dynamic insight cards
+- 🖱️ Interactive charts with cross-filtering
+- ♻️ One-click "Reset Filter" functionality
+- 🧭 Multi-page navigation bar
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **Power BI Desktop** — Dashboard development
-- **Power Query** — Data cleaning and transformation
-- **DAX** — Measures, KPIs and dynamic insights
-- **CSV Dataset** — Data source
-- **GitHub** — Project documentation and portfolio
+| Tool | Purpose |
+|---|---|
+| **Power BI Desktop** | Dashboard development & visualization |
+| **Power Query** | Data cleaning & transformation (ETL) |
+| **DAX** | Measures, KPIs & dynamic insight logic |
+| **CSV Dataset** | Raw data source |
+| **GitHub** | Version control & project documentation |
 
 ---
 
-## 💡 Key Learning
+## 📁 Repository Structure
 
-Through this project, I learned how to move beyond simply creating charts and focus more on answering meaningful analytical questions.
+```
+CARVISTA-Used-Car-Analytics/
+├── Car Dekho Dataset.pbix       # Power BI dashboard file
+├── cardekho_dataset.csv         # Dataset used for analysis
+├── assets/
+│   └── screenshots/             # Dashboard preview images
+├── docs/
+│   └── CARVISTA_Documentation.pdf   # Full project write-up
+└── README.md
+```
 
-I also gained practical experience with:
+---
 
-- Data cleaning and transformation
+## ▶️ How to Use
+
+1. Clone or download this repository.
+   ```bash
+   git clone https://github.com/<your-username>/CARVISTA-Used-Car-Analytics.git
+   ```
+2. Open **`Car Dekho Dataset.pbix`** in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
+3. Use the filter panel on the left (Brand, Model, Fuel Type, Transmission, Seller Type, Vehicle Age) to explore the data.
+4. Navigate between **Overview → Pricing → Specifications → Market Insights** using the top navigation bar.
+
+---
+
+## 💡 Key Learnings
+
+This project pushed me to focus less on *how many* visuals I could add, and more on *what question* each one answers.
+
+Hands-on skills strengthened along the way:
+
+- Data cleaning & transformation (Power Query)
 - Data modeling
-- DAX measures
-- Dynamic calculations
+- DAX measures & dynamic calculations
 - KPI development
-- Slicer interactions
-- Dashboard navigation
-- Data visualization
+- Slicer interactions & cross-filtering
+- Multi-page dashboard navigation
+- Data visualization best practices
 - Dashboard UI/UX design
 
-This project also helped me understand how different Power BI components can work together to create an interactive analytical experience.
-
----
-
-## 📁 Repository Files
-
-- `Car Dekho Dataset.pbix` — Power BI dashboard file
-- `cardekho_dataset.csv` — Dataset used for analysis
-- Project documentation will be added separately.
+It also helped me understand how Power BI's components — data model, DAX, visuals, and slicers — work together to create one connected analytical experience rather than a set of isolated charts.
 
 ---
 
 ## 🚀 Future Improvements
 
-Some improvements I plan to explore:
-
-- Additional advanced DAX analysis
-- More detailed market segmentation
-- Additional drill-through analysis
-- Enhanced dynamic insights
-- Further dashboard performance optimization
+- [ ] Additional advanced DAX analysis (YoY comparisons, ranking measures)
+- [ ] More granular market segmentation
+- [ ] Drill-through pages for brand/model deep-dives
+- [ ] Enhanced dynamic insight narratives
+- [ ] Further performance optimization for large datasets
 
 ---
 
 ## 👩‍💻 About This Project
 
-This project was created as part of my journey toward building practical skills in **Data Science**.
+Built by **Pathan Tarannum** as part of an ongoing **Data Science learning journey** — currently strengthening skills in **Power BI, SQL, Excel, and Python** through hands-on projects like this one.
 
-I am currently learning and strengthening my skills in **Power BI, SQL, Excel and Python** through hands-on projects.
+📄 Full project documentation: [`docs/CARVISTA_Documentation.pdf`](docs/CARVISTA_Documentation.pdf)
 
 ---
 
-⭐ If you find this project useful, feel free to explore the dashboard and share your feedback.
+<div align="center">
+
+⭐ **If you found this project useful, consider giving it a star — feedback is always welcome!**
+
+</div>
